@@ -1,5 +1,4 @@
 import axios from "axios"
-
 const Card = (article) => {
   // TASK 5
   // ---------------------
@@ -48,7 +47,7 @@ const Card = (article) => {
 
   //*EventListener
   cardDiv.addEventListener('click', e => {
-    console.log(headlineDiv)
+    console.log(headlineDiv.textContent)
   })
 
   return cardDiv

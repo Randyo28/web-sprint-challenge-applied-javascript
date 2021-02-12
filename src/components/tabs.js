@@ -21,22 +21,30 @@ const Tabs = (topics) => {
   const tab1Div = document.createElement('div')
   const tab2Div = document.createElement('div')
   const tab3Div = document.createElement('div')
+  const tab4Div = document.createElement('div')
+  const tab5Div = document.createElement('div')
 
   //* Adding classNames
   topicDiv.className = 'topics'
   tab1Div.className = 'tab'
   tab2Div.className = 'tab'
   tab3Div.className = 'tab'
+  tab4Div.className = 'tab'
+  tab5Div.className = 'tab'
 
   //* TextContent to tabs
   tab1Div.textContent = topics[0]
   tab2Div.textContent = topics[1]
   tab3Div.textContent = topics[2]
+  tab4Div.textContent = topics[3]
+  tab5Div.textContent = topics[4]
 
   //* appending tabs to div.topic
   topicDiv.append(tab1Div)
   topicDiv.append(tab2Div)
   topicDiv.append(tab3Div)
+  topicDiv.append(tab4Div)
+  topicDiv.append(tab5Div)
 
   return topicDiv
 }
