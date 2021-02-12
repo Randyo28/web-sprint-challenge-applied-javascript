@@ -30,7 +30,7 @@ const Header = (title, date, temp) => {
 
   return headerDiv
 }
- console.log(Header('Randy', `Feb/12/21`, `22*`))
+//  console.log(Header('Randy', `Feb/12/21`, `22*`))
 
 const headerAppender = (selector) => {
   // TASK 2
